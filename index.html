@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>In Class Assignment 2</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="p1">
+        <p>
+          Welcome to the Interactive ABCs of CSS Technology Learning Website
+        </p>
+      </div>
+      <div class="p2">
+        <p>
+          Click on the buttons below to reveal and learn the CSS technology
+          features of the corresponding letters
+        </p>
+      </div>
+
+      <div class="cards">
+        <div class="cardA" id="cardA">
+          <img src="./assets/css-letter-a.png" alt="Aspect Ratio Card" />
+          <br />
+          <div class="hideA-btn">
+            <button onclick="hideA()">Hide Results</button>
+          </div>
+        </div>
+
+        <div class="cardB" id="cardB">
+          <img src="./assets/css-letter-b.png" alt="Border Card" />
+          <br />
+          <div class="hideB-btn">
+            <button onclick="hideB()">Hide Results</button>
+          </div>
+        </div>
+
+        <div class="cardC" id="cardC">
+          <img src="./assets/css-letter-c.png" alt="Colors Card" />
+          <br />
+          <div class="hideC-btn">
+            <button onclick="hideC()">Hide Results</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <div class="buttonA" id="buttonA">
+          <button onclick="showA()" id="buttonA">A</button>
+        </div>
+
+        <div class="buttonB" id="buttonB">
+          <button onclick="showB()">B</button>
+        </div>
+
+        <div class="buttonC" id="buttonC">
+          <button onclick="showC()">C</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid;
+  border-color: orange;
+}
+
+.container .p1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-color: orange;
+  font-size: 22px;
+  margin: 2px 5px 10px 5px;
+  padding: 20px 0px;
+}
+
+.container .p2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-color: orange;
+  font-size: 22px;
+  margin: 2px 5px 10px 5px;
+  padding: 20px 0px;
+}
+
+.container .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container .cards .cardA {
+  visibility: hidden;
+  border: solid 2px;
+  border-color: orange;
+}
+
+.container .cards .hideA-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.container .cards .hideA-btn button {
+  width: 250px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #0091ea;
+  color: #fff;
+}
+
+.container .cards .cardB {
+  visibility: hidden;
+  border: solid 2px;
+  border-color: orange;
+}
+
+.container .cards .hideB-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.container .cards .hideB-btn button {
+  width: 250px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #0091ea;
+  color: #fff;
+}
+
+.container .cards .cardC {
+  visibility: hidden;
+  border: solid 2px;
+  border-color: orange;
+}
+
+.container .cards .hideC-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.container .cards .hideC-btn button {
+  width: 250px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #0091ea;
+  color: #fff;
+}
+
+.container .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container .buttons .buttonA button {
+  width: 150px;
+  height: 60px;
+  background-color: #fff;
+  border: 2px solid;
+  border-color: orange;
+  margin: 10px 0px 30px 0px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.container .buttons .buttonB button {
+  width: 150px;
+  height: 60px;
+  background-color: #fff;
+  border: 2px solid;
+  border-color: orange;
+  margin: 10px 0px 30px 0px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.container .buttons .buttonC button {
+  width: 150px;
+  height: 60px;
+  background-color: #fff;
+  border: 2px solid;
+  border-color: orange;
+  margin: 10px 0px 30px 0px;
+  font-size: 25px;
+  font-weight: 500;
+}
